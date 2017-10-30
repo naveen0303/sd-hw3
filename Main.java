@@ -10,7 +10,7 @@ public class Main {
     public static void main(String[] args) {
 //constructor for Main class
         Main main1 = new Main();
-
+        if (args.length == 0) {System.out.print("Error!!! Missing arguments!!!: "); return;}
 //constructor for org.apache.commons cli Options
         Options option1 = new Options();
 
